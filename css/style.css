@@ -48,7 +48,7 @@ nav {
  
 }
 
-.logo-gsoft{
+.logo{
     animation-name: mi_efecto;
     animation-duration: 4s;
 }
@@ -59,7 +59,7 @@ nav {
     25%{ width: 400px;}
     50%{ width: 500px;}
     75%{ width: 700px;}
-    100%{ width: auto;}
+    100%{ widht: 100%;}
  }
 
 .contenido-sup{
