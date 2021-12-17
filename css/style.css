@@ -12,8 +12,9 @@ nav {
 }
 
 .navbar-brand{
-    font-weight: bolder;
-    color: white;
+    font-weight:900;
+    color:rgb(156, 235, 132);
+   font-size: 1.4rem;
 }
 
 #lista-navegacion a{
@@ -57,7 +58,7 @@ nav {
     0.2s{ width:300px ;}
     25%{ width: 400px;}
     50%{ width: 500px;}
-    75%{ width: 800px;}
+    75%{ width: 700px;}
     100%{ width: auto;}
  }
 
@@ -82,6 +83,10 @@ nav {
     font-weight: bold;
 }
 
+.card .shadow-sm{
+    transition: all 2s;
+    transform: rotate(180deg);
+}
 
 @media (min-width: 576px) {
     .intro{
