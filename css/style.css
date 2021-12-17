@@ -44,8 +44,22 @@ nav {
     font-size: 13px;
     text-transform: uppercase;
     color: white;
+ 
 }
 
+.logo-gsoft{
+    animation-name: mi_efecto;
+    animation-duration: 4s;
+}
+
+@keyframes mi_efecto {
+    0%{ color: whitesmoke; }
+    0.2s{ width:300px ;}
+    25%{ width: 400px;}
+    50%{ width: 500px;}
+    75%{ width: 800px;}
+    100%{ width: auto;}
+ }
 
 .contenido-sup{
     background-color: #343c3f !important;
