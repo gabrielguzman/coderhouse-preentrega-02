@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+} 
+
+
+nav {
+    background-color: #556b99;
+    color: white;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    color: white;
+}
+
+#lista-navegacion a{
+    color: rgb(250, 248, 239);
+  
+}
+
+#lista-navegacion a:hover{
+    color: gold;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#texto-logo{
+    font-weight: bolder;
+    color: floralwhite;
+}
+
+#texto-logo p:hover{
+    color:red;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 1.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.intro{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.contenido-sup{
+    background-color: #343c3f !important;
+}
+
+.custom-row{
+    height: 83vh;
+}
+
+#row-primario{
+    height: 83vh;
+}
+
+.footer{
+    background-color: #ff497c; 
+    height: 18.5vh;
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+
+@media (min-width: 576px) {
+    .intro{
+        font-size: 15px;
+        color:cornsilk;
+        margin: 30px;
+    }
+    
+}
+
+@media (min-width: 768px) { 
+    .intro{
+        font-size: 17px;
+        color:darkkhaki;
+        margin: 5px;
+    }
+
+    .logo{
+        height: 260px;
+        margin-left: 118px;
+    }
+
+}
+    
+@media (min-width: 992px) { 
+    .intro{
+        font-size: 20px;
+        color:azure;    
+    }
+    
+    .logo {
+        max-width: 100%;
+        height: auto;
+        margin-left:0px
+    }
+}
+
+
+
