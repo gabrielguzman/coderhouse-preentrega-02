@@ -115,6 +115,13 @@ nav {
     font-weight:900;
 }
 
+.pic{
+    width: 150px;
+    height: 150px;
+    transform: rotate(-90deg);
+    
+}
+
 
 @media (min-width: 576px) {
     .intro{
@@ -138,6 +145,10 @@ nav {
     
     .info{
         text-align: left;
+    }
+
+    .pic{
+        transform: rotate(0deg);
     }
 }
     
