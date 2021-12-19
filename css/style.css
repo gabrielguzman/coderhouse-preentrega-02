@@ -5,7 +5,7 @@
     font-weight: lighter;
 } 
 
-
+/* estilos propios al navbar*/
 nav {
     background-color: #556b99;
     color: white;
@@ -41,11 +41,11 @@ nav {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 1.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+/* logo + into pagina index */
 .intro{
     font-size: 13px;
     text-transform: uppercase;
     color: white;
- 
 }
 
 .logo{
@@ -53,8 +53,9 @@ nav {
     animation-duration: 4s;
 }
 
+
 @keyframes mi_efecto {
-    0%{ color: whitesmoke; }
+    0%{ color: 0px; }
     0.2s{ width:300px ;}
     25%{ width: 400px;}
     50%{ width: 500px;}
@@ -74,27 +75,53 @@ nav {
     height: 83vh;
 }
 
+/*footer*/
+
 .footer{
     background-color: #ff497c; 
     height: 18.5vh;
 }
 
+/*formato titulos paginas*/
 .titulo{
     font-weight: bold;
 }
 
+/*para portfolio*/
 .card .shadow-sm{
     transition: all 2s;
     transform: rotate(180deg);
 }
 
+/*contacto*/
+.info{
+    text-align: center;
+    color: rgb(250, 64, 31);
+    
+}
+
+.info p{
+    font-size: 18px;
+    margin-top: 18px;
+    font-style: oblique;
+    color: black;
+}
+
+.contact{
+    justify-content: center;
+}
+
+.contact-form label{
+    font-weight:900;
+}
+
+
 @media (min-width: 576px) {
     .intro{
         font-size: 15px;
-        color:cornsilk;
+        color: cornsilk;
         margin: 30px;
     }
-    
 }
 
 @media (min-width: 768px) { 
@@ -108,7 +135,10 @@ nav {
         height: 260px;
         margin-left: 118px;
     }
-
+    
+    .info{
+        text-align: left;
+    }
 }
     
 @media (min-width: 992px) { 
@@ -120,7 +150,7 @@ nav {
     .logo {
         max-width: 100%;
         height: auto;
-        margin-left:0px
+        margin-left: 0px
     }
 }
 
